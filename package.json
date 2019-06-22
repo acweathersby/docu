@@ -1,9 +1,10 @@
 {
-  "name": "docu",
+  "name": "docu.js",
   "version": "0.0.1",
   "description": "JS Documentation and Testing Framework",
   "main": "docu.mjs",
   "scripts": {
+    "poc" : "node --experimental-modules ./docu.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
     "Testing"
   ],
   "author": "Anthony Weathersby",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@candlefw/radiate": "latest",
+    "@candlefw/wick": "latest",
+    "@candlefw/js": "latest"
+  }
 }
